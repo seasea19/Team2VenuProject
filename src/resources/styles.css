@@ -119,11 +119,11 @@ footer .footer_copyright {
 .countdown_wrapper {
     position: absolute;
     bottom: 0px;
-    color: #ffffff;
+    color: #95837A;
 }
 
 .countdown_wrapper .countdown_top {
-    background: #1c5e2f;
+    background: #4E5B51;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -132,13 +132,13 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #144b23;
+    background: #4E5B51;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #0d3619;
+    border-right: 1px solid #283a2c;
     margin-right: 14px;
     padding-right: 49px;
 }

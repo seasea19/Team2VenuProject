@@ -288,6 +288,16 @@ footer .footer_copyright {
     text-align: center;
     font-size: 50px;
     margin: 0;
+    padding-bottom: 15px;
+}
+
+.pricing_section p {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 .pricing_wrapper {

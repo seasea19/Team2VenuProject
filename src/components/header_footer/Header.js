@@ -46,11 +46,11 @@ class Header extends Component {
             }}>
                 <Toolbar>
                     <div className="header_logo">
-                        <div className="font_righteous header_logo_venue">Yankee Stadium</div>
-                        <div className="header_logo_title">Opening Day</div>
+                        <div className="font_righteous header_logo_venue">TTP Bootcamp</div>
+                        <div className="header_logo_title">JJAY 2021 | JJAY TTP Cohort</div>
                     </div>
 
-                    <IconButton aria-label="Menu" color="inherit" onClick={()=> this.toggleDrawer(true)}>
+                    <IconButton impact-label="Menu" color="inherit" onClick={()=> this.toggleDrawer(true)}>
                         <MenuIcon/>
                     </IconButton>
 

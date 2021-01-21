@@ -33,7 +33,7 @@ const SideDrawer = (props) => {
                 </ListItem>
 
                 <ListItem button onClick={() => scrollToElement ('pricing')}>
-                    Pricing
+                    Internships
                 </ListItem>
                 
                 <ListItem button onClick={() => scrollToElement ('location')}>

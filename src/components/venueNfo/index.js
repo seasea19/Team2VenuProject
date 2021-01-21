@@ -22,11 +22,7 @@ const VunueNfo = () => {
                                         Date & Time
                                     </div>
                                     <div className="vn_desc">
-<<<<<<< HEAD
-                                        Mon - Fri: 1500 - 2100
-=======
                                         29 January 2021 @21.00 pm
->>>>>>> f362346b1dc9a2fcdb29aea87160ba9f44b2f64e
                                     </div>
                                 </div>
                             </div>
@@ -46,11 +42,7 @@ const VunueNfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-<<<<<<< HEAD
-                                        Your place!
-=======
                                         524 W 59th St, New York, NY 10019
->>>>>>> f362346b1dc9a2fcdb29aea87160ba9f44b2f64e
                                     </div>
                                 </div>
                             </div>

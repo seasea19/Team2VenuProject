@@ -11,13 +11,13 @@ const ColumnCards = () => {
                 <div class="row-sim">
                     <div class="column-sim">
                         <div class="card-sim">
-                            <h3>Card 1</h3>
+                            <h3>Travel Site</h3>
                             <img src= {travel} alt="" className="staff_pic"
                             style={{width:"100%",
                             height: "auto",
                             textAlign: "center"}}/>
                             <p>Some text</p>
-                            <p>Some text</p>
+                            
                         </div>
                     </div>
 
@@ -26,7 +26,7 @@ const ColumnCards = () => {
                             <h3>Card 1</h3>
 
                             <p>Some text</p>
-                            <p>Some text</p>
+                            
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@ const ColumnCards = () => {
                         <div class="card-sim">
                             <h3>Card 1</h3>
                             <p>Some text</p>
-                            <p>Some text</p>
+                           
                         </div>
                     </div>
 

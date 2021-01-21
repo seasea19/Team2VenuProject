@@ -22,7 +22,7 @@ const VunueNfo = () => {
                                         Event Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        1 April 2017 @13.05 pm
+                                        29 January 2021 @21.00 pm
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const VunueNfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        1 E 161 St, The Bronx, NY 10451
+                                        524 W 59th St, New York, NY 10019
                                     </div>
                                 </div>
                             </div>

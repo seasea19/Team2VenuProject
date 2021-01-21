@@ -30,22 +30,29 @@ class Discount extends Component {
             <div className="center_wrapper">
                 <div className="discount_wrapper">
 
-                    <Fade onReveal = {() => this.porcentage()}>
+                    {/* <Fade onReveal = {() => this.porcentage()}>
                         <div className="discount_porcentage">
                             <span>{this.state.discountStart}%</span>
                             <span>OFF</span>
                         </div>
-                    </Fade>
+                    </Fade> */}
 
-                    <Slide right>
                         <div className="discount_description">
-                            <h3>Purchase tickets before 1st April</h3>
-                            <p>Some more filler text</p>
+                        <Slide right>
+                            <h3>Some Quotes from our Instrutor</h3>
+                        </Slide>
+                            <Fade delay={500}>
+                                <blockquote>
+                                    <p>“It’s 3pm, why am I not drunk yet?”</p>
+                                    <p>“Taco tuesdays”</p>
+                                    <p>“Rule 4: I am always right”</p>
+                                    <p>“I’m going to go on a run”</p>
+                                </blockquote>
+                            </Fade>
 
-                            <MyButton text="Purchase tickets" bck="#ffa800" color="#ffffff" link="http://google.com"/>
+                            <MyButton text="Learn More" bck="#ffa800" color="#ffffff" link="https://www.techtalentpipeline.nyc/" />
 
                         </div>
-                    </Slide>
 
                 </div>
             </div>

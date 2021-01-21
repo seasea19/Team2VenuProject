@@ -14,15 +14,15 @@ const VunueNfo = () => {
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
-                                    <div className="vn_icon_square bck_red"></div>
+                                    <div className="vn_icon_square bck_brown"></div>
                                     <div className="vn_icon" style={{
                                         background:`url(${icon_calendar})`
                                     }}></div>
                                     <div className="vn_title">
-                                        Event Date & Time
+                                        Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        1 April 2017 @13.05 pm
+                                        Mon - Fri: 1500 - 2100
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ const VunueNfo = () => {
                         <div className="vn_item">
                             <div className="vn_outer">
                                 <div className="vn_inner">
-                                    <div className="vn_icon_square bck_yellow"></div>
+                                    <div className="vn_icon_square bck_brown"></div>
                                     <div className="vn_icon" style={{
                                         background:`url(${icon_location})`
                                     }}></div>
@@ -42,7 +42,7 @@ const VunueNfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        1 E 161 St, The Bronx, NY 10451
+                                        Your place!
                                     </div>
                                 </div>
                             </div>

@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .font_righteous {
@@ -16,8 +16,12 @@ body {
     background: #ffffff;
 }
 
-.bck_brown {
-    background: #896E60;
+.bck_red {
+    background:rgb(128, 81, 81);
+}
+
+.bck_yellow {
+    background: #ffa800;
 }
 
 .iconImage {
@@ -51,6 +55,7 @@ header .header_logo_venue {
 
 header .header_logo_title {
     text-transform: uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*====================
@@ -58,17 +63,17 @@ header .header_logo_title {
 ======================*/
 
 footer {
-    padding: 50px 0px;
+    padding: 20px 0px;
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
     color: #ffffff;
-    background: red;
+    background:rgb(160, 108, 108);
 }
 
 footer .footer_copyright {
     text-align: center;
     font-size: 18px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*====================
@@ -245,7 +250,7 @@ footer .footer_copyright {
     padding: 70px 0px;
 }
 
-.discount_wrapper .discount_porcentage {
+ .discount_wrapper .discount_porcentage {
     padding-right: 100px;
 }
 
@@ -262,7 +267,7 @@ footer .footer_copyright {
     font-size: 50px;
     font-weight: 400;
     display: block;
-}
+} 
 
 
 .discount_wrapper .discount_description h3 {
@@ -417,5 +422,5 @@ footer .footer_copyright {
 }
 
 
-/* Bullets */
+
 

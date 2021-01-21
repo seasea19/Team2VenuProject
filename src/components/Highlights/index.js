@@ -7,7 +7,7 @@ const Highlights = () => {
     return (
         <div className="hightlight_wrapper">
             <ColumnCards/>
-            {/* <Description/> */}
+            {<Description/>}
             <Discount/>
         </div>
     );

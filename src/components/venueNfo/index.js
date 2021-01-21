@@ -1,12 +1,14 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 
-import icon_calendar from '../../resources/images/icons/calendar.png';
-import icon_location from '../../resources/images/icons/location.png';
+import Doug from '../../resources/images/staff/Doug.jpeg'
+import Istish from '../../resources/images/staff/Istish.png'
+import Genghis from '../../resources/images/staff/Genghis.jpg'
 
 const VunueNfo = () => {
     return (
         <div className="bck_black">
+            <h1>Meet the Staff</h1>
             <div className="center_wrapper">
                 <div className="vn_wrapper">
 
@@ -15,14 +17,15 @@ const VunueNfo = () => {
                             <div className="vn_outer">
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_brown"></div>
-                                    <div className="vn_icon" style={{
-                                        background:`url(${icon_calendar})`
-                                    }}></div>
+                                    <img src= {Istish} alt="" className="staff_pic"
+                                        style={{width:"100%",
+                                        height: "auto",
+                                        textAlign: "center"}}/>
                                     <div className="vn_title">
-                                        Date & Time
+                                        Istishna Hussian
                                     </div>
                                     <div className="vn_desc">
-                                        29 January 2021 @21.00 pm
+                                        Career Coach
                                     </div>
                                 </div>
                             </div>
@@ -35,18 +38,40 @@ const VunueNfo = () => {
                             <div className="vn_outer">
                                 <div className="vn_inner">
                                     <div className="vn_icon_square bck_brown"></div>
-                                    <div className="vn_icon" style={{
-                                        background:`url(${icon_location})`
-                                    }}></div>
+                                    <img src= {Doug} alt="" className="staff_pic"
+                                        style={{width:"100%",
+                                        height: "auto",
+                                        textAlign: "center"}}/>
                                     <div className="vn_title">
-                                        Event Location
+                                        Douglas Smith
                                     </div>
                                     <div className="vn_desc">
-                                        524 W 59th St, New York, NY 10019
+                                        Program Manager
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </Zoom>
+
+                    <Zoom duration={500}>
+                        <div className="vn_item">
+                            <div className="vn_outer">
+                                <div className="vn_inner">
+                                    <div className="vn_icon_square bck_brown"></div>
+                                    <img src= {Genghis} alt="" className="staff_pic"
+                                        style={{width:"100%",
+                                        height: "auto",
+                                        textAlign: "center"}}/>
+                                    <div className="vn_title">
+                                        Genghis Lopez
+                                    </div>
+                                    <div className="vn_desc">
+                                        Lead Instructor
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </Zoom>
 
                 </div>

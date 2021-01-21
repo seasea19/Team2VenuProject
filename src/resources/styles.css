@@ -17,7 +17,7 @@ body {
 }
 
 .bck_red {
-    background: #ff4800;
+    background:rgb(128, 81, 81);
 }
 
 .bck_yellow {
@@ -62,11 +62,11 @@ header .header_logo_title {
 ======================*/
 
 footer {
-    padding: 50px 0px;
+    padding: 20px 0px;
     text-align: center;
-    font-size: 60px;
+    font-size: 20px;
     color: #ffffff;
-    background: red;
+    background:rgb(160, 108, 108);
 }
 
 footer .footer_copyright {
@@ -249,7 +249,7 @@ footer .footer_copyright {
     padding: 70px 0px;
 }
 
-.discount_wrapper .discount_porcentage {
+ .discount_wrapper .discount_porcentage {
     padding-right: 100px;
 }
 
@@ -266,7 +266,7 @@ footer .footer_copyright {
     font-size: 50px;
     font-weight: 400;
     display: block;
-}
+} 
 
 
 .discount_wrapper .discount_description h3 {
@@ -421,5 +421,5 @@ footer .footer_copyright {
 }
 
 
-/* Bullets */
+
 
